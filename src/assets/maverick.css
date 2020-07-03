@@ -1,0 +1,411 @@
+/***************************************Maverick CSS style guidelines*********************************************
+**																												**
+**										1. BEM naming conventions.												**
+**										2. caterpillar-case or hyphened-case styling.							**
+**										3. An example, 															**
+**											- Block : .block-name{}												**
+**											- Element : .block-name__element-name{}								**
+**											- Modifier : .block-name--modifier-name{}							**
+**																												**
+*****************************************************************************************************************/
+
+/* Fonts used : Open Sans */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap);
+
+/* Maverick Colors */
+
+:root {
+  	--brand-blue: #1c437e;
+  	--pure-white: #ffffff;
+  	--office-green: #007500;
+  	--austin-orange: #ff9800;
+  	--berry-blue: #4392f1;
+  	--warning-yellow: #ffcf5c;
+ 	--goahead-green: #00c48c;
+  	--danger-red: #ed1724;
+  	--alpha-blue: #dbe1e9;
+  	--neutral-black: #333333;
+  	--text-grey: #5d5d5d;
+  	--background-white: #f7f8f9;
+}
+
+/* Mavrick Buttons */
+
+.mav-button{
+	width: 241px;
+	height: 50px;
+	opacity: 1.0;
+	padding: 14px 40px;
+	font-size: 16px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.33px;
+	text-align: center;
+	border: none;
+	color: var(--brand-blue);
+	background-color: var(--austin-orange);
+}
+.mav-button:hover{
+	opacity: 0.7;
+}
+.mav-button:disabled{
+	opacity: 0.2;
+}
+.mav-button--small{
+
+}
+.mav-button--large{
+	width: 320px;
+	height: 75px;
+	padding: 21px 116px;
+	font-size: 24px;
+	letter-spacing: 0.5px;
+}
+
+.mav-button--green{
+	color: var(--pure-white);
+	background-color: var(--office-green);
+}
+.mav-button--blue{
+	color: var(--pure-white);
+	background-color: var(--brand-blue);
+}
+
+/* Maverick Dropdowns */
+
+.mav-dropdown {
+  	width: 240px;
+  	height: 48px;
+  	border-radius: 10px;
+  	border: solid 1px #979797;
+ 	padding: 13px 20px;
+  	opacity: 0.4;
+  	font-size: 16px;
+  	font-weight: normal;
+  	font-stretch: normal;
+  	font-style: normal;
+  	line-height: normal;
+  	letter-spacing: 0.44px;
+  	color: var(--brand-blue);
+  	background-color: var(--alpha-blue);
+}
+
+.mav-dropdown--large {
+  	width: 240px;
+  	height: 48px;
+  	padding: 18px 20px;
+  	font-size: 18px;
+  	letter-spacing: 0.5px;
+}
+
+.mav-dropdown--extra-large {
+  	width: 500px;
+  	height: 90px;
+  	padding: 40px 28px;
+  	font-size: 24px;
+  	letter-spacing: 0.67px;
+}
+
+
+
+/* Maverick Text Style Catalog */
+
+.mav-text{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.33px;
+	color: var(--neutral-black);
+}
+
+/* available color */
+
+.mav-text--brand-blue{
+	color: var(--brand-blue);
+}
+
+.mav-text--pure-white{
+	color: var(--pure-white);
+}
+
+.mav-text--office-green{
+	color: var(--office-green);
+}
+
+.mav-text--austin-orange{
+	color: var(--austin-orange);
+}
+
+.mav-text--berry-blue{
+	color: var(--berry-blue);
+}
+
+.mav-text--warning-yellow{
+	color: var(--warning-yellow);
+}
+
+.mav-text--goahead-green{
+	color: var(--goahead-green);
+}
+
+.mav-text--danger-red{
+	color: var(--danger-red);
+}
+
+.mav-text--alpha-blue{
+	color: var(--alpha-blue);
+}
+
+.mav-text--neutral-black{
+	color: var(--neutral-black);
+}
+
+.mav-text--text-grey{
+	color: var(--text-grey);
+}
+
+.mav-text--background-white{
+	color: var(--background-white);
+}
+
+
+/* available font-weight */
+
+.mav-text--extra-bold{
+	font-weight: 800;
+}
+
+.mav-text--bold{
+	font-weight: bold;
+}
+
+.mav-text--light {
+	font-weight: 300;
+}
+
+
+/* available letter-spacing */
+
+.mav-text--ls-p17 {
+	letter-spacing: 0.17px;
+}
+
+.mav-text--ls-p25 {
+	letter-spacing: 0.25px;
+}
+
+.mav-text--ls-p29 {
+	letter-spacing: 0.29px;
+}
+
+.mav-text--ls-p33 {
+	letter-spacing: 0.33px;
+}
+
+.mav-text--ls-p37 {
+	letter-spacing: 0.37px;
+}
+
+.mav-text--ls-p41 {
+	letter-spacing: 0.41px;
+}
+
+.mav-text--ls-p49 {
+	letter-spacing: 0.49px;
+}
+
+.mav-text--ls-p5 {
+	letter-spacing: 0.5px;
+}
+
+.mav-text--ls-p67 {
+	letter-spacing: 0.67px;
+}
+
+.mav-text--ls-p99 {
+	letter-spacing: 0.99px;
+}
+
+.mav-text--ls-w29 {
+	letter-spacing: 2.99px;
+}
+
+
+/* available font-size */
+
+.mav-text--title {
+	font-size: 48px;
+}
+
+.mav-text--header {
+	font-size: 36px;
+}
+
+.mav-text--sub-header {
+	font-size: 24px;
+}
+
+.mav-text--sub-sub-header {
+	font-size: 20px;
+}
+
+.mav-text--body{
+	font-size: 18px;
+}
+
+.mav-text--caption{
+	font-size: 14px;
+}
+
+.mav-text--tiny{
+	font-size: 12px;
+}
+
+
+
+
+/* Maverick Text Style Catalog */
+
+.mav-body{
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.33px;
+	color: var(--neutral-black);
+}
+
+.mav-body-bold{
+	font-weight: bold;
+}
+
+.mav-body-light{
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.29px;
+}
+
+.mav-banner-bold{
+	font-size: 48px;
+	font-weight: 800;
+	letter-spacing: 0.99px;
+}
+
+.mav-heading-large-bold{
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.mav-heading-large-standard{
+	font-size: 36px;
+	letter-spacing: 2.99px;
+}
+
+.mav-heading-medium-bold{
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+}
+
+.mav-heading-medium-standard{
+	font-size: 24px;
+	letter-spacing: 0.67px;
+}
+
+.mav-heading-small-bold{
+	font-size: 18px;
+	font-weight: 800;
+	letter-spacing: 0.37px;
+}
+
+.mav-heading-small-light{
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0.17px;
+}
+
+/* Maverick Input Fields */
+
+.mav-input{
+	width: 100%;
+	height: 48px;
+	object-fit: contain;
+	border-radius: 10px;
+	border: solid 1px var(--brand-blue);
+	background-color: var(--alpha-blue);
+	padding: 15px 20px;
+	margin: 5px 0px;
+}
+
+.mav-input--large{
+	height: 60px;
+}
+
+.mav-input--extra-large{
+	height: 90px;
+	padding: 25px 35px;
+}
+
+.mav-input--error{
+	border: solid 1px var(--danger-red);
+}
+
+.mav-input--inactive{
+	border: none;
+}
+
+
+/* Changes if required in future */
+
+/* inclusion of local font
+@font-face {
+  font-family: OpenSans;
+  src: local(OpenSans-Light),
+	url(/path/to/OpenSans-Light.woff2) format("woff2"),
+	url(/path/to/OpenSans-Light.woff) format("woff"),
+	url(/path/to/OpenSans-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: local(OpenSans-Regular),
+	url(/path/to/OpenSans-Regular.woff2) format("woff2"),
+	url(/path/to/OpenSans-Regular.woff) format("woff"),
+	url(/path/to/OpenSans-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: local(OpenSans-Bold),
+	url(/path/to/OpenSans-Bold.woff2) format("woff2"),
+	url(/path/to/OpenSans-Bold.woff) format("woff"),
+	url(/path/to/OpenSans-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: local(OpenSans-ExtraBold),
+	url(/path/to/OpenSans-ExtraBold.woff2) format("woff2"),
+	url(/path/to/OpenSans-ExtraBold.woff) format("woff"),
+	url(/path/to/OpenSans-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+*/

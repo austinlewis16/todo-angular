@@ -24,13 +24,9 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
-=======
               "src/styles.css",
               "src/assets/maverick.css"
->>>>>>> 3de012cf15fe7513a5eb8c1cd3982481cb777357
             ],
             "scripts": []
           },

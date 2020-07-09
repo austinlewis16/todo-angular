@@ -2,47 +2,66 @@
 
     <div class="form-container" style="background-color: #1b427d ;">
     </div>
-    <form class="my-form" align="center">
-        <h2 class="form-header" style="font-size: 60px; margin-top: 90px">Log in!</h2><br><br>
+
+    <form class="login">
+        <!-- <h2 class="form-header" style="font-size: 60px; margin-top: 90px">Log in!</h2><br><br> -->
 
 
-        <div class="form-group">
+        <!-- <div class="form-group">
             <label for="examplePassword">Email address</label>
             <input type="text" style="border-radius: 0px;" class="form-control" placeholder="Email address" required=""><br><br>
-        </div>
+        </div> -->
+    <div class="login-name">Log in!</div>
 
-        <div class="form-group" style=" height: 80px;">
+      <fieldset class="fieldset1">
+        <legend class="legend1">Email Address</legend>
+        <input type="text" id="fname" placeholder="abcd@gmail.com" name="email" required>
+      </fieldset>
+<br>
+
+        <!-- <div class="form-group" style=" height: 80px;">
             <label for="examplePassword">Password</label>
             <input type="password" style="border-radius: 0px;" class="form-control" placeholder="Password" required=""><br><br><br><br><br><br>
-        </div>
+        </div> -->
 
-        <div class="form-group" style="vertical-align:text-top; font-size:  19px;">
-
-            <div class="form-group" style="vertical-align:text-top;font-size:  19px;border-left-width: 26px;margin-left: -270px;margin-top: 29px;">
-                <label class="container" style="float: left">Remember me
-                  <input type="checkbox">
-                  <span class="checkmark"></span>
-                </label>
+      <fieldset class="fieldset1">
+        <legend legend class="legend1">Password </legend>
+        <input type="password" id="fname" placeholder="Enter Password" name="pass" required>
+      </fieldset>
 
 
 
+      <div class="form-group"
+         style="vertical-align:text-top;font-size:
+          19px;border-left-width: 26px;margin-left:
+          -270px;margin-top: 29px;">
+         <label class="container"
+         style="float: left; position: relative;">Remember me
+          <input type="checkbox" id="HiddenText">
+          <span class="checkmark"></span>
+          </label>
 
+        <label class="container" style="float:right;left: 2px;">Forgot Password?
 
-                <label class="container" style="float:right;left: 2px;">Forgot Password?
-                  
-                  <span class="checmark"></span>
-                </label>
+          <span class="checmark"></span>
+        </label>
 
-            </div>
+       </div>
 
-        </div>
+    <!-- <div class="Remember-line" >
+      <label for="Remember"class="container" name="Remember">
+        <input type="checkbox"  name="Remember"
+         value="Remember me">Remember me
+      </label>
 
+        <div class="Forgot"><a href="#" >Forgot Password?</a></div>
+        <div class="mav-button">
+          <button type="submit"
+          id="fname"  name="submit" value="Log in" class="mav-button--large">Log In</button></div>
+      </div> -->
 
-
-
-
-        <button type="submit" style="margin-top: 152px;">
-            Log In
-            </button>
+<div class="mav-button">
+  Log In
+</div>
     </form>
 </div>

@@ -13,6 +13,7 @@
     height: 641px;
 }
 
+
 /* .my-form {
     align-self: auto;
     padding: 16px;
@@ -23,51 +24,49 @@
     opacity: 1;
  */
 
+
 /* ............. */
 
-
-
-.login-name{
-  color: #ffffff;
+.login-name {
+    color: #ffffff;
     text-align: center;
     margin-bottom: 65px;
     font-size: xx-large;
     margin-top: inherit;
     font-weight: bold;
+    font-size: 367%;
 }
 
-.legend1{
-  text-align : center;
-  color: #ffffff;
-}
-.fieldset1
-{
-    border:1px solid #ffffff;
-    height: auto;
-	  width: 350px;
+.legend1 {
+    text-align: center;
+    color: #ffffff;
 }
 
-.login{
+.fieldset1 {
+    border: 1px solid #ffffff;
+    width: 513px;
+    height: 70px;
+}
+
+.login {
     /* position: absolute;
     top: 18%;
     left: 40%;
     background-size: cover;
     z-index: 2;
     margin-left: 0px; */
-
     position: absolute;
-    top: 18%;
-    left: 40%;
+    top: 29%;
+    left: 31%;
     background-size: cover;
     z-index: 2;
     margin-left: 0px;
 }
 
 
-
-
-
 /*  */
+
+
 /* .form-header {
     text-align: center;
     padding: 0;
@@ -79,6 +78,7 @@
 /* .form-group {
     margin-bottom: 1rem;
 } */
+
 
 /* .form-control {
     display: block;
@@ -101,6 +101,7 @@
     font-weight: 400;
 }
 
+
 /* button {
     height: 70px;
     width: 200px;
@@ -111,6 +112,7 @@
     position: relative;
     bottom: 3em;
 } */
+
 
 /*  */
 
@@ -133,6 +135,8 @@ label {
 body {
     background-color: #1b427d;
 }
+
+
 /*
 .form-group input[type="password"] {
     border-color: #f1f1f1;
@@ -162,38 +166,43 @@ body {
     box-shadow: none;
 }
 
+
 /* ............... */
-.login input[type=text],input[type=password] {
-  width: 92%;
-     background :transparent;
-      border: none;
+
+.login input[type=text],
+input[type=password] {
+    width: 92%;
+    background: transparent;
+    border: none;
     font-size: 20px;
     font-weight: 400;
     color: #ffffff;
     outline: none;
     content: none;
-  }
+}
 
-  .Remember-line{
-
+.Remember-line {
     margin-top: 8px;
     color: white;
-    vertical-align:text-top;font-size:
-          19px;border-left-width: 26px;margin-left:
-          -270px;margin-top: 29px;
+    vertical-align: text-top;
+    font-size: 19px;
+    border-left-width: 26px;
+    margin-left: -270px;
+    margin-top: 29px;
+}
 
-  }
-
-  .Forgot{
+.Forgot {
     float: right;
     position: relative;
-  }
-  .Forgot a{
+}
+
+.Forgot a {
     color: #ffffff;
     text-decoration: none;
-  }
+}
 
-  /* .mav-button--large{
+
+/* .mav-button--large{
     width: 101px;
     height: 60px;
     color: #1b427d;
@@ -207,23 +216,29 @@ body {
 
   } */
 
+
 /* ////////// */
 
 .container {
-  position: initial;
+    position: initial;
     margin-bottom: 0px;
     cursor: pointer;
     float: left;
 }
+
+
 /* span.checkmark{
   position: absolute;
 } */
+
 .mav-button {
-position: relative;
+    position: relative;
     width: 100px;
-    top: 40px;
-    height: initial;
+    top: 80px;
     background-color: #ffffff;
+    margin-top: 15%;
+    height: 51px;
+    text-align: center;
 }
 
 
@@ -231,6 +246,8 @@ position: relative;
 
 
 /* Create a custom checkbox */
+
+
 /*
 .checkmark {
   position: initial;
@@ -240,13 +257,17 @@ position: relative;
   width: 25px;
   background-color: #1b427d;
   border: solid 1px; */
-  /* position: relative;
+
+
+/* position: relative;
     top: 6px;
     left: 0;
     height: 25px;
     width: 25px;
     background: #a8560b;
     border: solid 1px; */
+
+
 /* }
 input[type="checkbox"]{
   position: absolute;
@@ -266,11 +287,16 @@ span.checkmark:active #HiddenText {
   display: block;
 } */
 
+
 /* When the checkbox is checked, add a blue background */
+
+
 /* / */
 
 
 /* Create the checkmark/indicator (hidden when not checked) */
+
+
 /*
 input:after {
     content: "";
@@ -280,6 +306,8 @@ input:after {
 
 
 /* Show the checkmark when checked */
+
+
 /*
 .container input:checked~.checkmark:after {
     display: block;
@@ -287,6 +315,7 @@ input:after {
 
 
 /* Style the checkmark/indicator */
+
 
 /* .container .checkmark:after {
     left: 9px;
@@ -299,47 +328,94 @@ input:after {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 } */
- */
 
 
- /* Create a custom checkbox */
+/* Create a custom checkbox */
 
- .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #1b427d;
-  border: solid 1px;
+.checkmark {
+    position: initial;
+    top: 5;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #1b427d;
+    border: solid 1px;
+    /* position: relative;
+    top: 6px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background: #a8560b;
+    border: solid 1px; */
 }
+
+input[type="checkbox"] {
+    position: absolute;
+    display: flex;
+    height: 30px;
+    width: 25px;
+    left: -3px;
+    top: -5px;
+}
+
+span.checkmark:active {
+    display: none;
+}
+
+span.checkmark:focus {
+    display: block;
+}
+
+span.checkmark:active #HiddenText {
+    display: block;
+}
+
+
 /* When the checkbox is checked, add a blue background */
 
 .container input:checked~.checkmark {
-  background-color: #2196F3;
+    background-color: #1a8fee;
 }
+
+
 /* Create the checkmark/indicator (hidden when not checked) */
 
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+input:after {
+    content: "";
+    position: absolute;
+    display: none;
 }
+
+
 /* Show the checkmark when checked */
 
 .container input:checked~.checkmark:after {
-  display: block;
+    display: block;
 }
+
+
 /* Style the checkmark/indicator */
 
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+span.checkmark {
+    position: absolute;
+}
+
+.mav-button {
+    position: relative;
+    width: 100px;
+    top: 40px;
+    height: initial;
+    background-color: #ffffff;
 }

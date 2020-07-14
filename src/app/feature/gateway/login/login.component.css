@@ -6,11 +6,11 @@
     /* background: #1b427d; */
     background-size: cover;
     position: relative;
-    min-height: 400px;
     padding: 24px;
     opacity: 0.1;
     width: 50%;
-    height: 641px;
+    height: 100vh;
+    left: 342px;
 }
 
 
@@ -37,15 +37,16 @@
     font-size: 367%;
 }
 
-.legend1 {
+.login-legend1 {
     text-align: center;
     color: #ffffff;
 }
 
-.fieldset1 {
+.login-fieldset1 {
     border: 1px solid #ffffff;
-    width: 513px;
+    width: 590px;
     height: 70px;
+    font-size: 20px;
 }
 
 .login {
@@ -57,7 +58,7 @@
     margin-left: 0px; */
     position: absolute;
     top: 29%;
-    left: 31%;
+    left: 29%;
     background-size: cover;
     z-index: 2;
     margin-left: 0px;
@@ -130,10 +131,6 @@ label {
     left: 270px;
     margin-left: 24‒;
     padding-left: -6px;
-}
-
-body {
-    background-color: #1b427d;
 }
 
 
@@ -230,16 +227,6 @@ input[type=password] {
 /* span.checkmark{
   position: absolute;
 } */
-
-.mav-button {
-    position: relative;
-    width: 100px;
-    top: 80px;
-    background-color: #ffffff;
-    margin-top: 15%;
-    height: 51px;
-    text-align: center;
-}
 
 
 /* Hide the browser's default checkbox */
@@ -414,8 +401,13 @@ span.checkmark {
 
 .mav-button {
     position: relative;
-    width: 100px;
-    top: 40px;
-    height: initial;
+    width: 150px;
+    top: 101px;
+    left: 175px;
+    height: 52px;
     background-color: #ffffff;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: inherit;
+    font-weight: bold;
 }

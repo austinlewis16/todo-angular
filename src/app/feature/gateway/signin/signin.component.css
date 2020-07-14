@@ -1,19 +1,41 @@
-.form-container {
-    display: flex;
-    justify-content: center;
-    background: url('src/assets/brand_symbol_transparent.png') no-repeat center;
-    /* background: url('/src/assets/brand_symbol_transparent.png') no-repeat center; */
-    /* background: #1b427d; */
-    background-size: cover;
-    position: relative;
-    min-height: 400px;
-    padding: 24px;
-    opacity: 0.1;
-    width: 50%;
-    height: 641px;
-}
-
-.my-form {
+ .btn1 {
+     border-color: white;
+     background: rgb(0, 0, 0);
+     color: white;
+     background: rgba(0, 0, 0, 0);
+     align-items: flex-end;
+     width: 600px;
+     height: 80px;
+ }
+ 
+ button {
+     border-color: #f1f1f1;
+     /* background: rgb(0, 0, 0);
+    color: white;
+    background: rgba(0, 0, 0, 0); */
+     align-items: flex-end;
+     width: 600px;
+     height: 80px;
+     opacity: 100%;
+     font-size: 38px;
+     color: #1b427d;
+ }
+ 
+ .form-container {
+     display: flex;
+     justify-content: center;
+     background: url('src/assets/brand_symbol_transparent.png') no-repeat center;
+     /* background: url('/src/assets/brand_symbol_transparent.png') no-repeat center; */
+     /* background: #1b427d; */
+     background-size: cover;
+     position: relative;
+     padding: 24px;
+     opacity: 0.1;
+     width: 50%;
+     height: 100vh;
+     left: 325px;
+ }
+ /* .my-form {
     align-self: auto;
     padding: 16px;
     position: absolute;
@@ -21,113 +43,30 @@
     top: 46px;
     color: white;
     opacity: 1;
-}
-
-.form-header {
-    text-align: center;
-    padding: 0;
-    margin-top: 0;
-    font-size: 2em;
-    opacity: 1;
-}
-
-
-/* .form-group {
-    margin-bottom: 1rem;
-} */
-
-.form-control {
-    display: block;
-    width: 100%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #f1f1f1;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    /* border-radius: .25rem; */
-}
-
-.form-text {
-    display: block;
-    margin-top: .25rem;
-    /* font-size: 80%; */
-    font-weight: 400;
-}
-
-button {
-    background-color: white;
-    height: 70px;
-    width: 200px;
-    color: #1b427d;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    font-size: 30px;
-    align-self: center;
-}
-
-label {
-    position: absolute;
-    margin-top: -12px;
-    background: #1b427d;
-    color: white;
-    font-family: arial;
-    font-weight: 100;
-    z-index: 1000;
-    font-size: 17px;
-    padding: 0px 5px 0px 5px;
-    padding-top: 4‒;
-    padding-left: 0px;
-    left: 270px;
-    margin-left: 24‒;
-    padding-left: -6px;
-}
-
-.form-group input[type="password"] {
-    border-color: #f1f1f1;
-    align-items: flex-end;
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0);
-    /* Black background with 0.5 opacity */
-    width: 600px;
-    height: 80px;
-    box-shadow: none;
-    color: white;
-}
-
-
-/* ::placeholder {
-   
-    color: blue;
-} */
-
-.form-group .btn1 {
-    border-color: #f1f1f1;
-    background: rgb(0, 0, 0);
-    color: white;
-    background: rgba(0, 0, 0, 0);
-    align-items: flex-end;
-    width: 600px;
-    height: 80px;
-    box-shadow: none;
-}
-
-.form-group button {
-    border-color: #f1f1f1;
-    /* background: rgb(0, 0, 0);
-    color: white;
-    background: rgba(0, 0, 0, 0); */
-    align-items: flex-end;
-    width: 600px;
-    height: 80px;
-    box-shadow: none;
-    opacity: 100%;
-}
-
-input.largerCheckbox {
-    width: 15px;
-    height: 15px;
-}
+ */
+ /* ............. */
+ 
+ .login-name {
+     color: #ffffff;
+     text-align: center;
+     margin-bottom: 65px;
+     font-size: xx-large;
+     margin-top: inherit;
+     font-weight: bold;
+     font-size: 400%;
+ }
+ 
+ .login {
+     /* position: absolute;
+    top: 18%;
+    left: 40%;
+    background-size: cover;
+    z-index: 2;
+    margin-left: 0px; */
+     position: absolute;
+     top: 29%;
+     left: 29%;
+     background-size: cover;
+     z-index: 2;
+     margin-left: 0px;
+ }

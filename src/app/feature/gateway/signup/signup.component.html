@@ -1,48 +1,33 @@
-<div class="test" align="center">
+<div class="col-lg-12 col-md-12 col-sm-12 justify-content-center" style="background-color:  #1b427d; min-height: 1000px;min-width: 800px;">
 
-    <div class="form-container" style="background-color: #1b427d ; height: 800px;">
-    </div>
+    <div class="form-container"> </div>
 
-    <form class="login">
+
+    <form class="login justify-content-center">
         <!-- <h2 class="form-header" style="font-size: 60px; margin-top: 90px">Log in!</h2><br><br> -->
 
 
-        <!-- <div class="form-group">
-            <label for="examplePassword">Email address</label>
-            <input type="text" style="border-radius: 0px;" class="form-control" placeholder="Email address" required=""><br><br>
-        </div> -->
-        <div class="login-name">Sign up</div>
 
-        <fieldset class="fieldset1">
-            <legend class="legend1">Username</legend>
-            <input type="text" id="fname" placeholder="Enter Name" name="Username" required style="
-            width: 456.547;
-            height: 56px;
-            width: 436.547;
-        ">
+        <div class="login-name">Sign up</div>
+        <fieldset class="login-fieldset1">
+            <legend class="login-legend1">Username</legend>
+            <input type="text" id="fname" placeholder="Enter Name" name="Username" required>
+        </fieldset><br>
+
+        <fieldset class="login-fieldset1">
+            <legend class="login-legend1">Email Address</legend>
+            <input type="text" id="fname" placeholder="abcd@gmail.com" name="email" required>
         </fieldset>
         <br>
-        <fieldset class="fieldset1">
-            <legend class="legend1">Email Address</legend>
-            <input type="text" id="fname" placeholder="abcd@gmail.com" name="email" required style="
-            width: 456.547;
-            height: 56px;
-            width: 436.547;
-        ">
-        </fieldset><br>
 
         <!-- <div class="form-group" style=" height: 80px;">
             <label for="examplePassword">Password</label>
             <input type="password" style="border-radius: 0px;" class="form-control" placeholder="Password" required=""><br><br><br><br><br><br>
         </div> -->
 
-        <fieldset class="fieldset1">
-            <legend legend class="legend1">Password </legend>
-            <input type="password" id="fname" placeholder="Enter Password" name="pass" required style="
-            width: 456.547;
-            height: 56px;
-            width: 436.547;
-        ">
+        <fieldset class="login-fieldset1">
+            <legend legend class="login-legend1">Password </legend>
+            <input type="password" id="fname" placeholder="Enter Password" name="pass" required>
         </fieldset>
 
 
@@ -54,12 +39,15 @@
         <input type="checkbox" id="HiddenText">
         <span class="checkmark"></span>
         </label>
-            <label class="container" style="float: left;position: relative;left: 308px;top: 4px;">I accept the terms & conditions 
+            <label class="container" style="float: left;position: relative;left: 308px;top: 4px;">Remember me 
           
           </label>
 
 
 
+            <label class="container" style="float: right;position: relative;left: 8px;"> Forgot Password?
+         
+          </label>
 
 
         </div>
@@ -75,7 +63,7 @@
           id="fname"  name="submit" value="Log in" class="mav-button--large">Log In</button></div>
       </div> -->
 
-        <div class="mav-button" style="width: 133px;height: 30px;padding-top: 16px;font-size: 25px;padding-bottom: 23px;padding-right: 47px;">
+        <div class="mav-button">
             Log In
         </div>
     </form>

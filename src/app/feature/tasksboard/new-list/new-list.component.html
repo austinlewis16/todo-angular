@@ -1,7 +1,42 @@
-<p>new-list works!</p>
-<div class="inputboxcontainer">
-  <input type="text" id="fname" placeholder="New List." name="newlist" required>
-  <div class="plusbtn"><a class="plusbtna">+</a></div>
+
+
+
+
+
+<div class="card task-card col-3" id="my-tasks" style="margin:10px;   border: 1px solid;
+border-radius: inherit;">
+  <div class="row mb-3">
+    <h6 class="col-9">My tasks</h6>
+    <div class="dropdown dropright col-3">
+      <button class="btn dropbtn" type="button">
+        <!-- <i class="fa fa-ellipsis-v" aria-hidden="true"></i> -->
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 95 95" style="enable-background:new 0 0 95 95;color:#1c437e" xml:space="preserve"> <g> <g> <path style="fill:#1c437e;" d="M60,23V2c0-1.105-0.896-2-2-2H37c-1.104,0-2,0.895-2,2v21c0,1.105,0.896,2,2,2h21C59.104,25,60,24.105,60,23z"/> <path style="fill:#1c437e;" d="M60,58V37c0-1.105-0.896-2-2-2H37c-1.104,0-2,0.895-2,2v21c0,1.105,0.896,2,2,2h21C59.104,60,60,59.105,60,58z"/> <path style="fill:#1c437e;" d="M60,93V72c0-1.105-0.896-2-2-2H37c-1.104,0-2,0.895-2,2v21c0,1.105,0.896,2,2,2h21C59.104,95,60,94.105,60,93z"/> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      </button>
+
+      <div class="dropdown-content">
+        <a class="dropdown-item color-text disabled" href="#">Delete List</a>
+        <a class="dropdown-item color-text" href="#">Rename List</a>
+        <a class="dropdown-item color-text" href="#">Sort by Date</a>
+        <a class="dropdown-item color-text" href="#">Share List</a>
+        <a class="dropdown-item color-text disabled" href="#">Delete all completed tasks</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="mt-4 mb-4">
+    <button type="button" class="btn add-btn mr-2"></button>
+    <span class="">Add New Task</span>
+  </div> -->
+
+
+  <div class="mt-4 mb-4 inline" >
+    <input type="text" style=" width: 208px; border: none;  outline: none; font-size: 22px;" id="fname"
+    placeholder="New Task." name="newlist" autofocus required *ngIf="isclicked">
+
+
+    <button type="button"  class="btn add-btn mr-2 " (click)="ontoggle()"></button>
+
+    <span class="" *ngIf="!isclicked">Add New Task</span>
+  </div>
+
 </div>
-
-
